@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header.header {
+  background-color: #b6b5b5;
+  width: 100%;
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header.header section.header_left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 200px;
+          flex: 1 1 200px;
+  padding: 0.9rem 1.5rem;
+}
+
+body header.header section.header_left h1 {
+  padding: 1rem;
+  font-size: 2.2rem;
+}
+
+body header.header section.header_right nav {
+  padding: 1.5rem 3rem;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body header.header section.header_right nav ul {
+  padding: 0.5rem;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5rem;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body header.header section.header_right nav ul li {
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 1rem;
+}
+
+body header.header section.header_right nav ul li a {
+  font-size: 1.6rem;
+  color: black;
+  text-decoration: none;
+}
+
+body header.header section.header_right nav ul li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  background-color: lightsalmon;
+}
+
+body header.header section.header_right nav ul li .index {
+  color: salmon;
+  font-size: 1.6rem;
+}
+
+body main {
+  width: 100%;
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body main section.main_left {
+  width: 50%;
+  height: 70vh;
+  -webkit-box-flex: 3;
+      -ms-flex: 3 1 800px;
+          flex: 3 1 800px;
+}
+
+body main section.main_right {
+  padding: 2rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 200px;
+          flex: 1 1 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  height: 70vh;
+}
+
+body main section.main_right p {
+  font-size: 2rem;
+}
+
+body main section.main_right img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  height: 100px;
+}
+/*# sourceMappingURL=style.css.map */
